@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('img').click(function(){
+                    var altSource= $(this).attr('alt-src');
+                    $(this).attr('src', altSource);
+                })
+            });
+
+        </script>
+
+    </head>
+    <body>
+        <img src="./img/cat0.png" alt-src="./img/ninja0.png" alt="0th picture">
+        <img src="./img/cat1.png" alt-src="./img/ninja1.png" alt="1st picture">
+        <img src="./img/cat2.png" alt-src="./img/ninja2.png" alt="2nd picture">
+        <img src="./img/cat3.png" alt-src="./img/ninja3.png" alt="3rd picture">
+        <img src="./img/cat4.png" alt-src="./img/ninja4.png" alt="4th picture">
+
+    </body>
+</html>
